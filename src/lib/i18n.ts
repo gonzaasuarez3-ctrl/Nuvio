@@ -72,6 +72,9 @@ const dict = {
   save_expense: { es: "Guardar gasto", en: "Save expense", de: "Ausgabe speichern" },
   history_title: { es: "Historial", en: "History", de: "Verlauf" },
   no_expenses_yet: { es: "Aún no has registrado gastos.", en: "No expenses recorded yet.", de: "Noch keine Ausgaben erfasst." },
+  export_month_csv: { es: "Exportar mes (CSV)", en: "Export month (CSV)", de: "Monat exportieren (CSV)" },
+  month_total: { es: "Total del mes", en: "Month total", de: "Monatssumme" },
+  no_expenses_this_month: { es: "No hay gastos en este mes.", en: "No expenses this month.", de: "Keine Ausgaben in diesem Monat." },
 
   // Goals page
   new_goal: { es: "Nueva meta", en: "New goal", de: "Neues Ziel" },
@@ -139,6 +142,12 @@ const dict = {
   day_placeholder: { es: "Día", en: "Day", de: "Tag" },
 
   // Export / import
+  current_balance_reconcile_note: {
+    es: "Este número es la base de todos los cálculos. Si tu saldo real cambió (gastos en efectivo, algo que olvidaste registrar, etc.), actualízalo aquí para que \"gasto seguro de hoy\" vuelva a coincidir con la realidad.",
+    en: "This number is the base of every calculation. If your real balance changed (cash spending, something you forgot to log, etc.), update it here so \"safe to spend today\" matches reality again.",
+    de: "Diese Zahl ist die Grundlage aller Berechnungen. Wenn sich dein tatsächlicher Kontostand geändert hat (Barausgaben, etwas Vergessenes usw.), aktualisiere ihn hier, damit \"heute sicher ausgebbar\" wieder der Realität entspricht.",
+  },
+
   export_import_title: { es: "Pasar tus datos a otro dispositivo", en: "Move your data to another device", de: "Deine Daten auf ein anderes Gerät übertragen" },
   export_import_note: {
     es: "Tus datos viven solo en este navegador. Para verlos en tu celular u otra computadora, exporta un archivo aquí y luego impórtalo allá.",

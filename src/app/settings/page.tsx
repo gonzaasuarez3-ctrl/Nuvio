@@ -96,6 +96,19 @@ export default function SettingsPage() {
       </div>
 
       <div className="card">
+        <h2 className="font-display text-xl mb-2">{t("current_balance")}</h2>
+        <p className="text-sm text-ink/60 mb-3">{t("current_balance_reconcile_note")}</p>
+        <input
+          className="input"
+          type="number"
+          value={state.currentBalanceMinor / 100}
+          onChange={(e) =>
+            update({ currentBalanceMinor: Math.round(parseFloat(e.target.value || "0") * 100) })
+          }
+        />
+      </div>
+
+      <div className="card">
         <h2 className="font-display text-xl mb-2">{t("desired_reserve_label")}</h2>
         <input
           className="input"
